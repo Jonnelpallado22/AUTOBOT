@@ -5,7 +5,7 @@ const herc = new Hercai();
 module.exports.config = {
   name: 'nel',
   version: '1.0.0',
-  role: 0,
+  role: 1,
   hasPrefix: false,
   description: "An AI command powered by Hercai",
   usage: "hercai [prompt]",
