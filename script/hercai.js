@@ -19,7 +19,7 @@ module.exports.run = async function({
 }) {
   const input = args.join(' ');
   if (!input) {
-    api.sendMessage(`Hello! I'm Active!`, event.threadID, event.messageID);
+    api.sendMessage(`Hello!😄 How may assist you today?`, event.threadID, event.messageID);
     return;
   }
   api.sendMessage(`finding 🔍 "${input}" `, event.threadID, event.messageID);
