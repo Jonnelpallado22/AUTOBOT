@@ -22,7 +22,7 @@ module.exports.run = async function({
     api.sendMessage(`Hello! I'm Active!`, event.threadID, event.messageID);
     return;
   }
-  api.sendMessage(`finding 🔍 "${input}" `, event.threadID, event.messageID);
+  api.sendMessage(`Finding🔍 "${input}" `, event.threadID, event.messageID);
   try {
     const response = await herc.question({
       model: "v3",
